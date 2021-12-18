@@ -11,7 +11,7 @@ int main()
 	the the default statement*/
 	{
 
-		if (marks >= 70 && marks <= 100)  //using else if statement to grade the marks of user
+		if (marks > 70 && marks <= 100)  //using else if statement to grade the marks of user
 		{
 			cout << "Grade A " << endl;
 		}
